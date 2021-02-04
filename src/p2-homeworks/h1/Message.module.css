@@ -1,0 +1,29 @@
+.main {
+    display: grid;
+    background-color: yellow;
+    grid-template-rows: 60px 1fr;
+    grid-auto-columns: 1fr 10fr;
+    grid-template-areas: 'i n m t';
+}
+
+.image {
+    grid-area: i;
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.name {
+    grid-area: n;
+}
+
+.message {
+    grid-area: m;
+}
+
+.time {
+    grid-area: t;
+}
+
+.messageBody {
+}
